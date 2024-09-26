@@ -1,0 +1,94 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 600px;
+}
+
+.timeline__wrap {
+  display: flex;
+  gap: 25px;
+  padding-left: 20px;
+}
+
+.timeline__vertical-stripe {
+  width: 12px;
+  margin-top: 38px;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.timeline__posts {
+  width: 100%;
+}
+
+.timeline_add-panel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  bottom: 0;
+  padding-right: 10px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.add-panel__input-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4px 10px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  outline: none;
+  resize: none;
+}
+
+.add-panel__record-interface {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.record-interface__btns {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  line-height: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.record-interface__record-audio-btn {
+  font-size: 23px;
+}
+
+.record-interface__record-video-btn {
+  font-size: 17px;
+}
+
+.add-panel__start-record-interface {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.start-record-interface-btns {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.start-record-interface__send-btn {
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.start-record-interface__cancel-btn {
+  font-size: 19px;
+  line-height: 1.4;
+}

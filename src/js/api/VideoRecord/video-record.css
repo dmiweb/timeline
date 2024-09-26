@@ -1,0 +1,29 @@
+.video {
+  max-width: 410px;
+  margin-top: 5px;
+}
+
+.video__content {
+  width: 100%;
+}
+
+.widget-video-stream {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 43px;
+  width: 100%;
+  padding-top: 16px;
+  border: 1px solid #000000;
+  border-bottom: none;
+  border-radius: 25px 25px 0 0;
+  background-color: #ffffff;
+}
+
+.video-stream {
+  box-sizing: border-box;
+  width: 95%;
+}
