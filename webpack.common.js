@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const  FileManagerPlugin  =  require ('filemanager-webpack-plugin');
 
 module.exports = {
   target: 'web',
@@ -49,12 +48,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
-    }),
-    new FileManagerPlugin({
-      events: {
-        // onStart: { delete: ['dist'] },
-        onEnd: { copy: [{ source: 'src/static', destination: 'dist' }] },
-      },
     }),
   ],
 };
